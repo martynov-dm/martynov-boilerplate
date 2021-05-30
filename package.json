@@ -1,0 +1,18 @@
+{
+    "name": "webpack-intensive",
+    "version": "0.0.0",
+    "author": "Dima Vakatsiienko <dvakatsiienko@lectrum.io>",
+    "private": true,
+    "scripts": {
+        "build": "webpack --env=development"
+    },
+    "devDependencies": {
+        "@babel/core": "7.14.3",
+        "@babel/plugin-syntax-async-generators": "7.8.4",
+        "@babel/preset-env": "7.14.4",
+        "babel-plugin-dynamic-import-node": "2.3.3",
+        "cross-env": "7.0.3",
+        "webpack": "^5.38.1",
+        "webpack-cli": "^4.7.0"
+    }
+}
